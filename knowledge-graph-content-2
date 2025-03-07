@@ -1,0 +1,178 @@
+graph TD
+    %% CORE DOMAINS
+    Universe["Universe 🌌"]
+    Intelligence["Intelligence 🧠"]
+    Consciousness["Consciousness 👁️"]
+    Society["Society & Future 🌍"]
+    Philosophy["Philosophy 🔍"]
+    Mathematics["Mathematics 🔢"]
+    AIForGood["AI For Good 🤖❤️"]
+    FutureScenarios["Future Scenarios 🔮"]
+    
+    %% UNIVERSE SECTION
+    Universe --> |fundamental equation| UnifiedField["Unified Field Theory"]
+    Universe --> |governed by| FundamentalForces["Fundamental Forces"]
+    FundamentalForces --> Gravity["Gravity"]
+    FundamentalForces --> ElectroMagnetic["Electromagnetism"]
+    FundamentalForces --> StrongNuclear["Strong Nuclear Force"]
+    FundamentalForces --> WeakNuclear["Weak Nuclear Force"]
+    Universe --> |described by| QM["Quantum Mechanics"]
+    Universe --> |large scale described by| GR["General Relativity"]
+    Universe --> |exhibits| Emergence["Emergence"]
+    Universe --> |contains| Matter["Matter & Energy"]
+    Universe --> |operates through| Information["Information Theory"]
+    Universe --> |evolves via| Entropy["Entropy & 2nd Law"]
+    
+    %% EMERGENCE AND COMPLEXITY
+    Emergence --> |enables| Chemistry["Chemistry"]
+    Chemistry --> |enables| Biochemistry["Biochemistry"]
+    Biochemistry --> |enables| Biology["Biology"]
+    Biology --> |evolves via| NaturalSelection["Natural Selection"]
+    Biology --> |developed| NeuralSystems["Neural Systems"]
+    NeuralSystems --> |enables| BioIntelligence["Biological Intelligence"]
+    Emergence --> |manifests as| Complexity["Complexity Theory"]
+    Complexity --> |described by| ComplexSystems["Complex Systems"]
+    ComplexSystems --> |exhibit| SelfOrganization["Self-Organization"]
+    ComplexSystems --> |exhibit| Adaptation["Adaptation"]
+    ComplexSystems --> |exhibit| FeedbackLoops["Feedback Loops"]
+    
+    %% INTELLIGENCE SECTION
+    Intelligence --> |biological form| BioIntelligence
+    Intelligence --> |artificial form| AI["Artificial Intelligence"]
+    Intelligence --> |fundamental equation| FreeEnergy["F = T∇Sτ (Free Energy)"]
+    Intelligence --> |requires| Learning["Learning"]
+    Intelligence --> |involves| Prediction["Prediction"]
+    Intelligence --> |involves| Optimization["Optimization"]
+    Intelligence --> |processes| Information
+    Intelligence --> |enables| AgentModels["Agent Models of World"]
+    Intelligence --> |enables| ProblemSolving["Problem Solving"]
+    Intelligence --> |enables| Creativity["Creativity"]
+
+    %% AI SECTION
+    AI --> |current paradigm| DeepLearning["Deep Learning"]
+    AI --> |frontier| AGI["Artificial General Intelligence"]
+    AI --> |technique| ReinforcementLearning["Reinforcement Learning"]
+    AI --> |technique| SupervisedLearning["Supervised Learning"]
+    AI --> |technique| UnsupervisedLearning["Unsupervised Learning"]
+    AI --> |foundation| Statistics["Statistics & Probability"]
+    AI --> |foundation| ComputerScience["Computer Science"]
+    AI --> |foundation| Neuroscience["Neuroscience"]
+    AI --> |implements| LLMs["Large Language Models"]
+    LLMs --> |capability| NLP["Natural Language Processing"]
+    AI --> |implements| ComputerVision["Computer Vision"]
+    AI --> |implements| MultiModalAI["Multi-Modal AI"]
+    DeepLearning --> |architecture| Transformers["Transformers"]
+    DeepLearning --> |architecture| GANs["Generative Adversarial Networks"]
+    DeepLearning --> |architecture| DiffusionModels["Diffusion Models"]
+    AI --> |challenge| Alignment["AI Alignment"]
+    AI --> |challenge| Interpretability["Interpretability"]
+    AI --> |challenge| Robustness["Robustness & Security"]
+    
+    %% MATHEMATICS SECTION
+    Mathematics --> |foundation| SetTheory["Set Theory"]
+    Mathematics --> |studies| NumberTheory["Number Theory"]
+    Mathematics --> |studies| Algebra["Algebra"]
+    Mathematics --> |studies| Geometry["Geometry"]
+    Mathematics --> |studies| Analysis["Analysis & Calculus"]
+    Mathematics --> |studies| Topology["Topology"]
+    Mathematics --> |studies| Logic["Mathematical Logic"]
+    Mathematics --> |studies| ProbabilityTheory["Probability Theory"]
+    Mathematics --> |application| Statistics
+    Mathematics --> |unifies through| CategoryTheory["Category Theory"]
+    Mathematics --> |enables| Optimization
+    
+    %% CONSCIOUSNESS SECTION
+    Consciousness --> |theories| GWT["Global Workspace Theory"]
+    Consciousness --> |theories| IIT["Integrated Information Theory"]
+    Consciousness --> |theories| PCT["Predictive Coding Theory"]
+    Consciousness --> |theories| HOT["Higher Order Thought Theory"]
+    Consciousness --> |equation| Phi["Φ (Phi) = Integrated Information"]
+    Consciousness --> |properties| Qualia["Qualia & Phenomenology"]
+    Consciousness --> |properties| SelfModel["Self-Model"]
+    Consciousness --> |properties| Volition["Agency & Free Will"]
+    Consciousness --> |properties| IntentionalStance["Intentionality"]
+    Consciousness --> |requires| Attention["Attention"]
+    Intelligence --> |may enable| Consciousness
+    Information --> |integrated becomes| Consciousness
+    
+    %% SOCIETY AND FUTURE SECTION
+    Society --> |technologies| AI
+    Society --> |technologies| Biotech["Biotechnology"]
+    Society --> |technologies| Nanotech["Nanotechnology"]
+    Society --> |technologies| Robotics["Robotics & Automation"]
+    Society --> |technologies| RenewableEnergy["Renewable Energy"]
+    Society --> |technologies| QuantumComputing["Quantum Computing"]
+    Society --> |systems| Democracy["Democracy"]
+    Society --> |systems| Markets["Market Economies"]
+    Society --> |systems| Cooperation["Cooperation Mechanisms"]
+    Society --> |challenges| Climate["Climate Change"]
+    Society --> |challenges| Inequality["Inequality"]
+    Society --> |challenges| Polarization["Polarization"]
+    Society --> |challenges| SecurityRisks["Security Risks"]
+    
+    %% AI FOR GOOD SECTION
+    AIForGood --> |approach| HumanCenteredAI["Human-Centered AI"]
+    AIForGood --> |approach| ResponsibleAI["Responsible AI Development"]
+    AIForGood --> |approach| ValueAlignment["Value Alignment"]
+    AIForGood --> |application| Healthcare["Healthcare AI"]
+    AIForGood --> |application| Education["Education AI"]
+    AIForGood --> |application| ClimateAction["Climate Action AI"]
+    AIForGood --> |application| ScientificDiscovery["Scientific Discovery AI"]
+    AIForGood --> |principle| Fairness["Fairness & Equity"]
+    AIForGood --> |principle| Transparency["Transparency"]
+    AIForGood --> |principle| Privacy["Privacy Protection"]
+    AIForGood --> |principle| Accountability["Accountability"]
+    AI --> |applied for benefit| AIForGood
+    
+    %% FUTURE SCENARIOS
+    FutureScenarios --> |possibility| HumanFlourishingAI["Human Flourishing with AI"]
+    FutureScenarios --> |possibility| AIRisks["AI Risk Scenarios"]
+    FutureScenarios --> |possibility| SlowTakeoff["Slow AI Takeoff"]
+    FutureScenarios --> |possibility| FastTakeoff["Fast AI Takeoff"]
+    FutureScenarios --> |aspect| Governance["AI Governance"]
+    Society --> |evolves into| FutureScenarios
+    
+    %% PHILOSOPHY SECTION
+    Philosophy --> |branch| Epistemology["Epistemology"]
+    Philosophy --> |branch| Metaphysics["Metaphysics"]
+    Philosophy --> |branch| Ethics["Ethics"]
+    Philosophy --> |branch| PoliticalPhilosophy["Political Philosophy"]
+    Philosophy --> |branch| PhilosophyOfMind["Philosophy of Mind"]
+    Philosophy --> |branch| PhilosophyOfScience["Philosophy of Science"]
+    Philosophy --> |question| TruthNature["Nature of Truth"]
+    Philosophy --> |question| RealityNature["Nature of Reality"]
+    Philosophy --> |question| GoodLife["The Good Life"]
+    Philosophy --> |question| JusticeFairness["Justice & Fairness"]
+    Philosophy --> |approach| Rationalism["Rationalism"]
+    Philosophy --> |approach| Empiricism["Empiricism"]
+    Philosophy --> |approach| Pragmatism["Pragmatism"]
+    
+    %% CROSS-DOMAIN CONNECTIONS
+    UnifiedField --> |may explain| Consciousness
+    PhilosophyOfMind --> |questions| Consciousness
+    GR --> |conflicts with| QM
+    Neuroscience --> |studies| NeuralSystems
+    PhilosophyOfScience --> |examines| UnifiedField
+    AIRisks --> |requires| Alignment
+    FreeEnergy --> |related to| Entropy
+    Phi --> |measures| Information
+    HumanFlourishingAI --> |enabled by| ValueAlignment
+    ResponsibleAI --> |implements| Ethics
+    CategoryTheory --> |describes| ComplexSystems
+    SelfOrganization --> |exhibits| Emergence
+    Empiricism --> |underpins| Science["Science"]
+    Science --> |discovers| Universe
+    Science --> |discovers| Biology
+    Science --> |produces| Technology["Technology"]
+    Technology --> |includes| AI
+    Technology --> |shapes| Society
+    Ethics --> |guides| AIForGood
+    AI --> |modeled on| BioIntelligence
+    SlowTakeoff --> |allows for| Governance
+    
+    %% FUTURE EQUATIONS
+    IdealSociety["Ideal Society Equation"] --> |factors| WellbeingMax["Max(Wellbeing)"]
+    IdealSociety --> |factors| OpportunityEquality["Equal(Opportunity)"]
+    IdealSociety --> |factors| SustainabilityMax["Max(Sustainability)"]
+    IdealSociety --> |factors| FreedomMax["Max(Freedom)"]
+    Society --> |optimizes towards| IdealSociety

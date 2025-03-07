@@ -1,6 +1,7 @@
 # Knowledge graph output files
 knowledge_graph.html
 output/
+outputs/
 
 # Python artifacts
 __pycache__/
@@ -35,4 +36,4 @@ ENV/
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo outputs/

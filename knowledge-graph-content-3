@@ -1,0 +1,191 @@
+graph TD
+    %% Main Domain Nodes
+    Universe["Universe & Fundamental Laws"]
+    Intelligence["Intelligence & Cognition"]
+    Consciousness["Consciousness & Qualia"]
+    Mathematics["Mathematics & Formal Systems"]
+    Physics["Physics & Physical Reality"]
+    Biology["Biology & Life"]
+    Complexity["Complexity & Emergence"]
+    Neuroscience["Neuroscience & Brain"]
+    Philosophy["Philosophy & Epistemology"]
+    Ethics["Ethics & Values"]
+    Society["Society & Social Systems"]
+    AI["Artificial Intelligence"]
+    Future["Future Scenarios & Predictions"]
+    
+    %% Universe and Physics
+    Universe -- "described by" --> PhysicsEquations["Fundamental Equations (GR, QM)"]
+    Universe -- "generates" --> Multiverse["Multiverse Theories"]
+    Universe -- "manifests as" --> SpaceTime["Space-Time Fabric"]
+    PhysicsEquations -- "includes" --> QuantumMechanics["Quantum Mechanics"]
+    PhysicsEquations -- "includes" --> Relativity["General Relativity"]
+    PhysicsEquations -- "includes" --> QFT["Quantum Field Theory"]
+    Universe -- "governed by" --> PhysicalConstants["Physical Constants"]
+    Physics -- "explains" --> FundamentalForces["Fundamental Forces"]
+    PhysicsEquations -- "attempts unification in" --> TOE["Theory of Everything"]
+    TOE -- "candidate is" --> StringTheory["String Theory"]
+    TOE -- "candidate is" --> LoopQuantumGravity["Loop Quantum Gravity"]
+    
+    %% Mathematics
+    Mathematics -- "provides" --> FormalLanguage["Formal Languages"]
+    Mathematics -- "includes" --> NumberTheory["Number Theory"]
+    Mathematics -- "includes" --> Algebra["Algebra & Structures"]
+    Mathematics -- "includes" --> Analysis["Analysis & Calculus"]
+    Mathematics -- "includes" --> Geometry["Geometry & Topology"]
+    Mathematics -- "includes" --> LogicSystems["Logic Systems"]
+    Mathematics -- "includes" --> SetTheory["Set Theory"]
+    Mathematics -- "includes" --> CategoryTheory["Category Theory"]
+    Mathematics -- "includes" --> ProbabilityTheory["Probability & Statistics"]
+    Mathematics -- "studied through" --> ProofTheory["Proof Theory"]
+    Mathematics -- "limited by" --> GodelIncompleteness["Gödel's Incompleteness Theorems"]
+    
+    %% Intelligence and AI
+    Intelligence -- "manifests as" --> BiologicalIntelligence["Biological Intelligence"]
+    Intelligence -- "manifests as" --> AI
+    Intelligence -- "may follow" --> IntelligenceEquation["Fundamental Equation of Intelligence"]
+    IntelligenceEquation -- "relates to" --> BayesianInference["Bayesian Inference"]
+    IntelligenceEquation -- "relates to" --> InformationTheory["Information Theory"]
+    IntelligenceEquation -- "relates to" --> ComputationalComplexity["Computational Complexity"]
+    Intelligence -- "requires" --> Learning["Learning & Adaptation"]
+    Intelligence -- "enables" --> ProblemSolving["Problem Solving"]
+    Intelligence -- "enables" --> Creativity["Creativity & Innovation"]
+    
+    %% AI Specifics
+    AI -- "includes" --> MachineLearning["Machine Learning"]
+    AI -- "includes" --> DeepLearning["Deep Learning"]
+    AI -- "includes" --> ReinforcementLearning["Reinforcement Learning"]
+    AI -- "includes" --> NLP["Natural Language Processing"]
+    AI -- "includes" --> ComputerVision["Computer Vision"]
+    AI -- "includes" --> SymbolicAI["Symbolic AI"]
+    AI -- "current paradigm is" --> FoundationModels["Foundation Models"]
+    AI -- "emerging approach is" --> NeuroSymbolic["Neuro-Symbolic AI"]
+    AI -- "evaluated by" --> Benchmarks["AI Benchmarks & Metrics"]
+    AI -- "limited by" --> AILimitations["Current AI Limitations"]
+    
+    %% Brain and Neuroscience
+    Neuroscience -- "studies" --> BrainStructure["Brain Structure"]
+    Neuroscience -- "studies" --> NeuralActivity["Neural Activity"]
+    Neuroscience -- "studies" --> NeuralNetworks["Neural Networks & Circuits"]
+    Neuroscience -- "studies" --> Neuroplasticity["Neuroplasticity"]
+    Neuroscience -- "models with" --> ComputationalNeuroscience["Computational Neuroscience"]
+    Neuroscience -- "measures with" --> BrainImaging["Brain Imaging Techniques"]
+    Neuroscience -- "investigates" --> BrainFunction["Brain Function & Cognition"]
+    BrainEquation["Fundamental Equation of the Brain"] -- "may involve" --> NeuralDynamics["Neural Dynamics"]
+    BrainEquation -- "may involve" --> PredictiveCoding["Predictive Coding"]
+    BrainEquation -- "may involve" --> FreeEnergy["Free Energy Principle"]
+    
+    %% Consciousness
+    Consciousness -- "manifests as" --> SubjectiveExperience["Subjective Experience"]
+    Consciousness -- "includes" --> Qualia["Qualia (Feelings)"]
+    Consciousness -- "theories include" --> GlobalWorkspace["Global Workspace Theory"]
+    Consciousness -- "theories include" --> IntegratedInformation["Integrated Information Theory"]
+    Consciousness -- "theories include" --> HigherOrderThought["Higher-Order Thought Theory"]
+    ConsciousnessEquation["Fundamental Equation of Consciousness"] -- "may involve" --> IntegratedInformation
+    ConsciousnessEquation -- "may involve" --> NeuralCorrelates["Neural Correlates of Consciousness"]
+    Consciousness -- "debated in" --> HardProblem["Hard Problem of Consciousness"]
+    
+    %% Complexity and Emergence
+    Complexity -- "studied in" --> ComplexSystems["Complex Systems Theory"]
+    Complexity -- "exhibits" --> EmergentProperties["Emergent Properties"]
+    Complexity -- "exhibits" --> SelfOrganization["Self-Organization"]
+    Complexity -- "exhibits" --> NonLinearDynamics["Non-Linear Dynamics"]
+    Complexity -- "measured by" --> InformationComplexity["Information Complexity"]
+    Complexity -- "analyzed with" --> NetworkTheory["Network Theory"]
+    ComplexityEquation["Equation of Emergence & Complexity"] -- "may involve" --> EntropyProduction["Entropy Production"]
+    ComplexityEquation -- "may involve" --> InformationIntegration["Information Integration"]
+    
+    %% Biology and Life
+    Biology -- "emerges from" --> Chemistry["Chemistry & Molecules"]
+    Chemistry -- "emerges from" --> Physics
+    Biology -- "studies" --> Genetics["Genetics & Heredity"]
+    Biology -- "studies" --> Evolution["Evolution & Adaptation"]
+    Biology -- "studies" --> CellularProcesses["Cellular Processes"]
+    Biology -- "studies" --> Ecology["Ecology & Ecosystems"]
+    Biology -- "relates to" --> Complexity
+    Biology -- "creates basis for" --> Neuroscience
+    
+    %% Philosophy
+    Philosophy -- "investigates" --> Epistemology["Epistemology (Knowledge)"]
+    Philosophy -- "investigates" --> Metaphysics["Metaphysics (Reality)"]
+    Philosophy -- "investigates" --> Ethics
+    Philosophy -- "investigates" --> Aesthetics["Aesthetics (Beauty)"]
+    Philosophy -- "investigates" --> PoliticalPhilosophy["Political Philosophy"]
+    Philosophy -- "investigates" --> MindBodyProblem["Mind-Body Problem"]
+    Philosophy -- "investigates" --> FreeWill["Free Will vs Determinism"]
+    Philosophy -- "investigates" --> PersonalIdentity["Personal Identity"]
+    Philosophy -- "provides frameworks for" --> AI
+    
+    %% Ethics and Values
+    Ethics -- "examines" --> Utilitarianism["Utilitarianism"]
+    Ethics -- "examines" --> Deontology["Deontological Ethics"]
+    Ethics -- "examines" --> VirtueEthics["Virtue Ethics"]
+    Ethics -- "examines" --> Consequentialism["Consequentialism"]
+    Ethics -- "applied to" --> AIEthics["AI Ethics"]
+    Ethics -- "informs" --> SocietalValues["Societal Values"]
+    Ethics -- "guides" --> Governance["Governance & Regulation"]
+    AIEthics -- "addresses" --> Fairness["Fairness & Bias"]
+    AIEthics -- "addresses" --> Transparency["Transparency & Explainability"]
+    AIEthics -- "addresses" --> Safety["AI Safety & Alignment"]
+    AIEthics -- "addresses" --> Privacy["Privacy & Surveillance"]
+    
+    %% Society and Governance
+    Society -- "organized by" --> PoliticalSystems["Political Systems"]
+    Society -- "organized by" --> EconomicSystems["Economic Systems"]
+    Society -- "builds" --> Institutions["Social Institutions"]
+    Society -- "shapes" --> Culture["Culture & Norms"]
+    Society -- "influences" --> Technology["Technological Development"]
+    Society -- "affected by" --> AI
+    PoliticalSystems -- "includes" --> Democracy["Democracy & Representation"]
+    PoliticalSystems -- "includes" --> Authoritarianism["Authoritarianism"]
+    PoliticalSystems -- "includes" --> Libertarianism["Libertarianism"]
+    EconomicSystems -- "includes" --> Capitalism["Capitalism"]
+    EconomicSystems -- "includes" --> Socialism["Socialism"]
+    EconomicSystems -- "includes" --> MixedEconomies["Mixed Economies"]
+    
+    %% Future and Predictions
+    Future -- "shaped by" --> Technology
+    Future -- "shaped by" --> Climate["Climate Change"]
+    Future -- "shaped by" --> Geopolitics["Geopolitical Forces"]
+    Future -- "includes scenarios" --> AIFutures["AI-Dominated Futures"]
+    Future -- "includes scenarios" --> Sustainability["Sustainable Futures"]
+    Future -- "includes scenarios" --> Collapse["Societal Collapse Scenarios"]
+    Future -- "includes scenarios" --> SpaceExpansion["Space Expansion"]
+    AIFutures -- "ranges from" --> ASI["Artificial Superintelligence"]
+    AIFutures -- "ranges from" --> HumanAICoevolution["Human-AI Coevolution"]
+    AIFutures -- "affected by" --> AIGovernance["AI Governance"]
+    AIFutures -- "affected by" --> AICapabilityControl["AI Capability Control"]
+    Future -- "optimized by" --> FlourshingEquation["Equation for Human Flourishing"]
+    
+    %% AI for Good
+    AIForGood["AI Applications for Good"] -- "includes" --> HealthcareAI["Healthcare AI"]
+    AIForGood -- "includes" --> ClimateAI["Climate AI"]
+    AIForGood -- "includes" --> EducationAI["Education AI"]
+    AIForGood -- "includes" --> ScientificDiscoveryAI["Scientific Discovery AI"]
+    AIForGood -- "includes" --> SustainabilityAI["Sustainability AI"]
+    AIForGood -- "requires" --> ResponsibleAI["Responsible AI Development"]
+    AIForGood -- "requires" --> AIAccessibility["AI Accessibility & Equity"]
+    AIForGood -- "requires" --> AILiteracy["AI Literacy & Education"]
+    AIForGood -- "optimized through" --> AIGovernance
+    
+    %% Interconnections between major domains
+    Mathematics -- "formalizes" --> Physics
+    Physics -- "underlies" --> Universe
+    Universe -- "gives rise to" --> Complexity
+    Complexity -- "enables" --> Biology
+    Biology -- "evolves" --> Neuroscience
+    Neuroscience -- "manifests" --> Intelligence
+    Intelligence -- "relates to" --> Consciousness
+    Consciousness -- "contemplated by" --> Philosophy
+    Philosophy -- "examines" --> Ethics
+    Ethics -- "guides" --> Society
+    Society -- "shapes" --> Future
+    AI -- "augments" --> Intelligence
+    AI -- "changes" --> Society
+    AI -- "applied through" --> AIForGood
+    AIForGood -- "improves" --> Future
+    Mathematics -- "models" --> AI
+    AI -- "studies" --> Neuroscience
+    Consciousness -- "may emerge from" --> Complexity
+    FlourshingEquation -- "balances" --> Ethics
+    FlourshingEquation -- "optimizes" --> Society
